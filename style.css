@@ -1,0 +1,83 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+/* General Styling */
+
+body{
+    background-color: hsl(0, 0%, 8%);
+}
+
+.container, .attribution{
+    color: hsl(0, 0%, 100%);
+    font-family: Inter, Arial, Cambria, Times;
+}
+
+.container{
+    max-width: 29%;
+    height: auto;
+    margin: 150px auto;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image{
+    margin-top: 3em;
+    margin-bottom: 2em;
+    border-radius: 100px;
+    width: 25%;
+}
+
+.name{
+    font-size: 1.5rem;
+}
+
+.location{
+    margin-top: 0.5em;
+    margin-bottom: 2em;
+    color: hsl(75, 94%, 57%);   
+}
+
+.small-description, .location, .social-media{
+    font-size: 0.9rem;
+}
+
+span:not(.small-description){
+    font-weight: 600;
+}
+
+.small-description{
+    font-weight: 300;
+    margin-bottom: 1.4em;
+}
+
+/* Styling for the social media tabs */
+
+.social-media{
+    padding: 15px;
+    width: 80%;
+    text-align: center;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.social-media:hover{
+    background-color: hsl(75, 94%, 57%);
+}
+
+.instagram{
+    margin-bottom: 3em;
+}
+
+/* Styling for attribution */
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
